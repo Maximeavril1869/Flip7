@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0f1b2d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Flip 7">
+<title>Flip 7</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <section id="setup" class="screen"></section>
+  <section id="game" class="screen" hidden>
+    <header class="bar">
+      <button class="icon" id="btnHome" aria-label="Menu">⌂</button>
+      <div id="info"></div>
+      <button class="icon" id="btnRules" aria-label="Règles">?</button>
+    </header>
+    <main id="board" class="board"></main>
+  </section>
+  <div id="overlay" hidden></div>
+  <div id="modal" hidden></div>
+</div>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
