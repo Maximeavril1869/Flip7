@@ -38,3 +38,8 @@ L'adresse sera `https://<utilisateur>.github.io/Flip7/`.
 | `sw.js`, `manifest.webmanifest`, `icons/` | PWA |
 
 Pour modifier le jeu hors ligne après une mise à jour, incrémenter `VERSION` dans `sw.js`.
+
+
+## Licence
+
+Tous droits réservés © Maximeavril1869. Code publié pour consultation uniquement ; toute réutilisation exige l'autorisation écrite de l'auteur. Voir le fichier `LICENSE`.
